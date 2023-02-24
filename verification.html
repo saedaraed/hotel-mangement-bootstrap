@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="row sign">
+
+        <div class="col-lg-6 right">
+            <nav class="navbar navbar-expand-lg " style="background-color: transparent!important;">
+                <div class="container d-flex justify-content-between px-2">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="dropdown-center drop-language">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="assets/img/Group 12321.png" alt="">العربية
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item d-flex gap-1 align-items-center"
+                                        href="verification.html"><img src="assets/img/Group 12321.png"
+                                            alt="">العربية</a></li>
+                                <li><a class="dropdown-item" href="verificationEn.html"> الانجليزية</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="swith-dark form-check form-switch swith-dark"
+                            style=" width: 37px; height: 21px; background-repeat: no-repeat;">
+                            <input class="form-check-input" type="checkbox" role="switch" id="dark-mode-toggle"
+                                style=" width: 37px; height: 21px; background-color: transparent; margin-top: 0px; border: none;">
+                        </div>
+                    </div>
+
+
+                    <div class="" id="navbarNavAltMarkup">
+                        <div class="navbar-navs d-flex gap-2">
+
+                            <a class="nav-links" href="contact.html">اتصل بنا</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <form>
+                <div class="d-flex align-items-center gap-2 titleSign">
+
+                    <img src="assets/img/Layer_5.png" alt="">
+                    <div>
+                        <h1> التحقق من الكود المرسل</h1>
+                        <span class="mb-5" style="color: #11042980; font-size:14px;">تم ارسال الكود الى البريد
+                            <span>****riyad@gmail.com</span>
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="mt-5">
+                    <div class="mb-4 d-flex align-items-center verify">
+                        <input type="number" min="0" max="9">
+                        <input type="number">
+
+                        <input type="number">
+                        <input type="number">
+
+                    </div>
+
+
+                </div>
+
+
+                <button type="button" style="background-color: #3265CCE5; height:60px;" type="submit"
+                    class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">تحقق من
+                    الرمز
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <div class="modal-body d-flex justify-content-center">
+                                <div><img src="assets/img/_x38_59-Interface_x2C__Tick_x2C__User.png" alt="">
+                                    <h3 style="color: #3265CC;" class="text-center mt-4">تم التأكيد بنجاح</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <p class="notSend">لم يتم الارسال ؟<a href="">اعادة الارسال</a></p>
+                <div class="d-flex justify-content-center mt-5" style="width: 80%; margin: 0 auto;">
+                    <p class="text-center">يمكنك تفحص البريد الالكتروني الخاص بك لكتابة الكود المرسل ليتم تاكيده
+                        والحصول على
+                        كلمة مرور جدبدة</p>
+                </div>
+
+
+            </form>
+
+        </div>
+        <div class="col-lg-6 d-lg-block d-md-none d-sm-none p-0">
+            <div class="left-img d-flex align-items-center justify-content-center"
+                style=" height: 100%; border-right: solid 1px gray;">
+                <img src="assets/img/pngegg (9) 1.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+        integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js">
+    </script>
+</body>
+
+</html>

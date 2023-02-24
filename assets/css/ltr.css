@@ -1,0 +1,51 @@
+body{direction: ltr;
+font-family: 'Poppins';
+font-size: 13px;
+}
+.item-nav-mobile  {
+right: 0;
+left: calc(100% - 100px);
+}
+@font-face {
+    font-family: 'Popins';
+    src: url('../fonts/Poppins-Regular.ttf');
+
+}
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.ttf' );
+
+}
+  .sidebar {
+       
+            box-shadow: inset 30px -13px 10px -21px rgba(0, 0, 0, 0.1);
+        }
+ .sidebar button{
+    font-size: 12px!important;
+    font-family: PoppinsMedium;
+    
+  }
+  .sidebar ul li ul li{
+    padding: 5px 0px;
+    font-family: PoppinsMedium;
+}
+ .evalu p {
+            font-size: 13px;
+        
+        }
+         .statement h6 {
+            font-size: 13px;
+        }
+         .apart-setting{
+            padding-left: 0px;
+         }
+ .apart-setting .apartsett{
+     padding-left: 0px!important;
+     margin-left: 0px!important;
+     width: 1104px;
+
+ }
+
+   .apart-setting .card p{
+    font-size: 12px;
+   }
